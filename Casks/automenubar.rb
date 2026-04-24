@@ -2,7 +2,7 @@ cask "automenubar" do
   version "1.0.0"
   sha256 "0adadbd0d5252f6b7da162f64b56f6a4c381bb589ca63fe090f91ae434b24b24"
 
-  url "https://github.com//AutoMenuBar/releases/download/v#{version}/AutoMenuBar-#{version}-macOS.zip"
+  url "https://github.com/code4happy/AutoMenuBar/releases/download/v#{version}/AutoMenuBar-#{version}-macOS.zip"
   name "AutoMenuBar"
   desc "macOS menu bar icon management tool with dual-icon positioning system"
   homepage "https://github.com/code4happy/AutoMenuBar"
@@ -13,8 +13,8 @@ cask "automenubar" do
 
   zap trash: [
     "~/Library/Application Support/AutoMenuBar",
-    "~/Library/Caches/com.yourcompany.AutoMenuBar",
-    "~/Library/Preferences/com.yourcompany.AutoMenuBar.plist",
+    "~/Library/Caches/com.github.code4happy.AutoMenuBar",
+    "~/Library/Preferences/com.github.code4happy.AutoMenuBar.plist",
   ]
 
   caveats do
